@@ -611,7 +611,7 @@
 		backlight = <&backlight>;
 		rotation = <270>;
 
-		iovcc-supply = <&vcc_1v8>;
+		iovcc-supply = <&vcc1v8_dvp>;
 		vsp-supply = <&vcc5v5_lcd>;
 		vsn-supply = <&vcc5v5_neg_lcd>;
 

@@ -263,7 +263,6 @@ static int sharp_ls054_get_modes(struct drm_panel *panel,
 	connector->display_info.width_mm = mode->width_mm;
 	connector->display_info.height_mm = mode->height_mm;
 	drm_mode_probed_add(connector, mode);
-	drm_connector_set_panel_orientation(connector, ctx->orientation);
 
 	return 1;
 }
